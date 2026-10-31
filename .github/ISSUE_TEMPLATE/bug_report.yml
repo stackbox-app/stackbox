@@ -1,0 +1,56 @@
+name: Bug report
+description: Something in Stackbox doesn't work as expected.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this. **Issues are public.** Please don't include real names, your supplements, doses or any health information. If a screenshot shows personal data, cover it or use made-up data.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you see, and what did you expect instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open Today
+        2. Tap ...
+        3. ...
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      description: More → About shows it, for example 1.0.0.
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Phone and system version
+      placeholder: e.g. Pixel 8, Android 16 / iPhone 13, iOS 26
+    validations:
+      required: true
+  - type: dropdown
+    id: source
+    attributes:
+      label: Where did you install Stackbox from?
+      options:
+        - Google Play
+        - App Store
+        - APK from GitHub Releases
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy
+      options:
+        - label: This report contains no real names, supplements, doses or health information.
+          required: true
