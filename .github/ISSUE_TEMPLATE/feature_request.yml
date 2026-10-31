@@ -1,0 +1,23 @@
+name: Idea or feature request
+description: Suggest something that would make Stackbox more useful.
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Issues are public.** Please don't include real names, your supplements, doses or any health information.
+
+        Stackbox is an organizational tool. It won't add medical advice, dose recommendations or interaction checks.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What would you like to do?
+      description: Describe the situation, not only the solution. For example "I give my kids different amounts on weekends".
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: How could Stackbox help?
+    validations:
+      required: false
