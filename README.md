@@ -17,7 +17,10 @@
   <a href="https://bithard.co/stackbox/privacy/">Privacy policy</a>
 </p>
 
-<p align="center"><i>Coming soon to the App Store and Google Play.</i></p>
+<p align="center">
+  <a href="https://apps.apple.com/app/stackbox-supplement-tracker/id6829664347"><b>Get Stackbox for iPhone on the App Store</b></a><br>
+  <i>Android: coming soon to Google Play.</i>
+</p>
 
 <table>
   <tr>
@@ -55,7 +58,8 @@ Read the [privacy policy](https://bithard.co/stackbox/privacy/).
 
 ## Download
 
-Stackbox is coming soon to the App Store and Google Play. The Android APK will also be published under [Releases](../../releases).
+- **iPhone:** [Stackbox: Supplement Tracker on the App Store](https://apps.apple.com/app/stackbox-supplement-tracker/id6829664347) (free, iOS 15.1 or later).
+- **Android:** coming soon to Google Play. The Android APK will also be published under [Releases](../../releases).
 
 ## Example file
 
